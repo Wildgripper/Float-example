@@ -1,0 +1,58 @@
+/* Float example */
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header, footer {
+    background-color: rgb(163, 163, 163);
+    color: white;
+    padding: 15px;
+
+}
+
+header {
+    margin-top: 10px;
+}
+
+/* Menu */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* * {
+    box-sizing: border-box;
+} */
+
+.menu {
+    width: 20%;
+}
+
+
+.content {
+    width: 70%;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.menu li {
+    background-color: #33b5e5;
+    color: white;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+
+
